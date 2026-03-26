@@ -4,7 +4,6 @@
   - Vite+
   - Vitest (Unit Testing)
   - Playwright (E2E Testing)
-  - tRPC (E2E API Type Safety)
   - Mock Service Worker (Mocking API Calls)
 - Backend
   - Python
