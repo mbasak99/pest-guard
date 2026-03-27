@@ -18,3 +18,14 @@
 
 # Why
 Wanted to make something cool and useful, as well as heavily think about TDD and Cloud-native applications.
+
+# ER Diagrams
+```mermaid
+   erDiagram
+      accTitle: TODO
+      accDescr: TODO
+
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
