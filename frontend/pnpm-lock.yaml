@@ -14,7 +14,7 @@ importers:
     dependencies:
       msw:
         specifier: ^2.12.14
-        version: 2.12.14(@types/node@25.5.0)(typescript@5.9.3)
+        version: 2.12.14(@types/node@25.5.0)(typescript@6.0.2)
     devDependencies:
       '@playwright/test':
         specifier: ^1.58.2
@@ -23,14 +23,14 @@ importers:
         specifier: ^25.5.0
         version: 25.5.0
       typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
+        specifier: ~6.0.2
+        version: 6.0.2
       vite:
         specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3)'
+        version: '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2)'
       vite-plus:
         specifier: latest
-        version: 0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3))(typescript@5.9.3)
+        version: 0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2))(typescript@6.0.2)
 
 packages:
 
@@ -857,8 +857,8 @@ packages:
     resolution: {integrity: sha512-PlBfpQwiUvGViBNX84Yxwjsdhd1TUlXr6zjX7eoirtCPIr08NAmxwa+fcYBTeRQxHo9YC9wwF3m9i700sHma8g==}
     engines: {node: '>=20'}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1119,7 +1119,7 @@ snapshots:
 
   '@types/statuses@2.0.6': {}
 
-  '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3)':
+  '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2)':
     dependencies:
       '@oxc-project/runtime': 0.121.0
       '@oxc-project/types': 0.122.0
@@ -1128,7 +1128,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.5.0
       fsevents: 2.3.3
-      typescript: 5.9.3
+      typescript: 6.0.2
 
   '@voidzero-dev/vite-plus-darwin-arm64@0.1.14':
     optional: true
@@ -1148,11 +1148,11 @@ snapshots:
   '@voidzero-dev/vite-plus-linux-x64-musl@0.1.14':
     optional: true
 
-  '@voidzero-dev/vite-plus-test@0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3))(typescript@5.9.3)':
+  '@voidzero-dev/vite-plus-test@0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2))(typescript@6.0.2)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': 0.1.14(@types/node@25.5.0)(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': 0.1.14(@types/node@25.5.0)(typescript@6.0.2)
       es-module-lexer: 1.7.0
       obug: 2.1.1
       pixelmatch: 7.1.0
@@ -1162,7 +1162,7 @@ snapshots:
       tinybench: 2.9.0
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
-      vite: '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2)'
       ws: 8.20.0
     optionalDependencies:
       '@types/node': 25.5.0
@@ -1306,7 +1306,7 @@ snapshots:
 
   mrmime@2.0.1: {}
 
-  msw@2.12.14(@types/node@25.5.0)(typescript@5.9.3):
+  msw@2.12.14(@types/node@25.5.0)(typescript@6.0.2):
     dependencies:
       '@inquirer/confirm': 5.1.21(@types/node@25.5.0)
       '@mswjs/interceptors': 0.41.3
@@ -1327,7 +1327,7 @@ snapshots:
       until-async: 3.0.2
       yargs: 17.7.2
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.2
     transitivePeerDependencies:
       - '@types/node'
 
@@ -1488,17 +1488,17 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
-  typescript@5.9.3: {}
+  typescript@6.0.2: {}
 
   undici-types@7.18.2: {}
 
   until-async@3.0.2: {}
 
-  vite-plus@0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3))(typescript@5.9.3):
+  vite-plus@0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2))(typescript@6.0.2):
     dependencies:
       '@oxc-project/types': 0.122.0
-      '@voidzero-dev/vite-plus-core': 0.1.14(@types/node@25.5.0)(typescript@5.9.3)
-      '@voidzero-dev/vite-plus-test': 0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@5.9.3))(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': 0.1.14(@types/node@25.5.0)(typescript@6.0.2)
+      '@voidzero-dev/vite-plus-test': 0.1.14(@types/node@25.5.0)(@voidzero-dev/vite-plus-core@0.1.14(@types/node@25.5.0)(typescript@6.0.2))(typescript@6.0.2)
       cac: 7.0.0
       cross-spawn: 7.0.6
       oxfmt: 0.42.0
