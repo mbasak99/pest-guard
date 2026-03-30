@@ -3,7 +3,7 @@ entrypoint = "main:app"
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "The backend for the pest control app"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
