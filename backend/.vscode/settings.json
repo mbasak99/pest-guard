@@ -1,3 +1,9 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:venv"
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  "python.defaultInterpreterPath": "${workspacePath}/.venv/bin/python",
+  "ruff.interpreter": ["${workspaceFolder}/.venv/bin/python"],
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
 }
